@@ -1,8 +1,10 @@
 #ifndef _COMMON_MESSAGE_H_
 #define _COMMON_MESSAGE_H_
 
+#define MAX_CMD_TYPE_LEN			(32)
+#define MAX_GM_COMMAND_LEN			(1024)
+
 #include "internal_message_header.h"
-#include "define/str_def.h"
 
 #pragma pack(push, 1)
 //tolua_begin
