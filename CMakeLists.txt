@@ -3,6 +3,8 @@ cmake_minimum_required (VERSION 3.20)
 SET(TARGET_NAME "ss_proto_common")
 project(${TARGET_NAME})
 
+init_project()
+
 add_library(${TARGET_NAME} INTERFACE)
 add_library(mango::${TARGET_NAME} ALIAS ${TARGET_NAME})
 
